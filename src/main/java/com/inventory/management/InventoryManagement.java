@@ -13,6 +13,8 @@ public class InventoryManagement {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
+        System.out.println("Current file.encoding: " + System.getProperty("file.encoding"));
+        System.out.println("Willkommen zum Geräteverwaltungssystem");
         try {
             System.out.println("Willkommen zum Geräteverwaltungssystem");
 
